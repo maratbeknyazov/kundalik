@@ -1,0 +1,13 @@
+.footer{
+    &-inner{
+        margin: 25px 0 45px 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        a{
+            color: blue;
+        }
+    }
+}

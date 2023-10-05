@@ -1,0 +1,56 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+// top colors
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-item{
+        width: 20%;
+        height: 4px;
+        
+        &:nth-child(1){
+            background-color: $blue;
+        }
+        &:nth-child(2){
+            background-color: $green;
+        }
+        &:nth-child(3){
+            background-color: $yellow
+        }
+        &:nth-child(4){
+            background-color: $orange;
+        }
+        &:nth-child(5){
+            background-color: $violet;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container{
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+
+@import "header";
+@import "main";
+@import "footer";

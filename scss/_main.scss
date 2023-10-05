@@ -1,0 +1,79 @@
+.content{
+    // Kirish Kundalik
+
+    &-head{
+        background-image: linear-gradient(to bottom,#00bbe5,#00abdf);
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            font-family: 'MuseoModerno', cursive;
+            font-size: 24px;
+            color: #fff;
+        }
+    }
+}
+
+form {
+    p{
+        margin: 25px 0 5px 0;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    input {
+        width: 100%;
+        height: 45px;
+        border-radius: 5px;
+        border: solid 1px #cdc5bc;
+        box-shadow: inset 0 2px 4px rgb(0 0 0 / 10%);
+        background-color: #fafafa;
+        transform: translateZ(1px);
+        font-size: 20px;
+        color: #1e1e1f;
+        padding: 0 10px;
+        font-weight: 600;
+    }
+
+    button {
+        width: 100%;
+        height: 45px;
+        font-size: 20px;
+        text-shadow: 0 -1px 0 rgb(0 0 0 / 40%);
+        color: #fff;
+        height: 49px;
+        padding: 0;
+        opacity: .9;
+        border: 1px solid #649e26;
+        border-radius: 5px;
+        background-color: #6db62e;
+        box-shadow: inset 0 1px 0 rgb(255 255 255 / 60%);
+        margin-top: 25px;
+    }
+}
+
+// noo mine
+
+// form {
+//     border: 1px solid #c3c3c3;
+//     padding: 15px;
+//     width: 320px;
+// }
+
+// form input {
+//     width: 100%;
+//     height: 50px;
+//     border: 1px solid #c3c3c3;
+//     border-radius: 5px;
+//     margin-bottom: 10px;
+//     padding: 0 15px;
+//     display: flex;
+//     align-items: center;
+// }
+
+form input.error{
+    border-color:red;
+}

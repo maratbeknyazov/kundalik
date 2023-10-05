@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-item {
+  width: 20%;
+  height: 4px;
+}
+.top-item:nth-child(1) {
+  background-color: #4cc0e2;
+}
+.top-item:nth-child(2) {
+  background-color: #bbd036;
+}
+.top-item:nth-child(3) {
+  background-color: #fed939;
+}
+.top-item:nth-child(4) {
+  background-color: #f4931c;
+}
+.top-item:nth-child(5) {
+  background-color: #b976af;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+.header-logo {
+  width: 100%;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .header-list {
+  display: none;
+}
+
+.content-head {
+  background-image: linear-gradient(to bottom, #00bbe5, #00abdf);
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-head h1 {
+  font-family: "MuseoModerno", cursive;
+  font-size: 24px;
+  color: #fff;
+}
+
+form p {
+  margin: 25px 0 5px 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+form input {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: solid 1px #cdc5bc;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fafafa;
+  transform: translateZ(1px);
+  font-size: 20px;
+  color: #1e1e1f;
+  padding: 0 10px;
+  font-weight: 600;
+}
+form button {
+  width: 100%;
+  height: 45px;
+  font-size: 20px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  color: #fff;
+  height: 49px;
+  padding: 0;
+  opacity: 0.9;
+  border: 1px solid #649e26;
+  border-radius: 5px;
+  background-color: #6db62e;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  margin-top: 25px;
+}
+
+form input.error {
+  border-color: red;
+}
+
+.footer-inner {
+  margin: 25px 0 45px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-inner a {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
