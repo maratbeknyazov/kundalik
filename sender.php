@@ -2,7 +2,7 @@
     $name = $_POST['name'];
     $surname = $_POST['surname'];
 
-	$to = "maratbeknyazov@gmail.com"; 
+	$to = "mininvladilen@gmail.com"; 
 	$date = date ("d.m.Y"); 
 	$time = date ("h:i");
 	$from = $name;
